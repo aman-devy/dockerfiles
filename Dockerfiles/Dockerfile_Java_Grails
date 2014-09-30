@@ -1,7 +1,8 @@
-# dockerizing netflix-ice OSS project
+# dockerfile to build a java-grails image
 
 FROM ubuntu:12.04
 MAINTAINER Aman <aman.adsm@gmail.com>
+
 RUN echo 'starting build... creating docker image. Hold On !!'
 
 # OS update & cloning from git
